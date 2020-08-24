@@ -1,0 +1,46 @@
+Q.1
+#include<stdio.h>
+int main(void)
+{
+int temp;
+
+scanf("%d", &temp);
+  if(temp < 0)
+    {
+    printf("cold, indoor");
+    }
+   else if(temp >= 40)
+    {
+    printf("hot, indoor");
+    }
+    else
+    {
+    printf("moderate, outdoor");
+    }
+  return 0;
+}
+
+
+Q.2
+#include<stdio.h>
+int main(void)
+{
+  int n, m;
+
+  scanf ("%d%d", &m, &n);
+
+  if ((n * n) == m)
+    {
+      printf ("%d*%d=%d", n, n, m);
+    }
+  else if((m * m) == n)
+  {
+      printf ("%d*%d=%d", m, m, n);
+  }
+  else
+  {
+      printf("none");
+  }
+  return 0;
+}
+
