@@ -1,4 +1,5 @@
 Q.1
+
 #include<stdio.h>
 int main(void)
 {
@@ -22,25 +23,25 @@ scanf("%d", &temp);
 
 
 Q.2
+
 #include<stdio.h>
 int main(void)
 {
   int n, m;
 
-  scanf ("%d%d", &m, &n);
-
-  if ((n * n) == m)
-    {
+  scanf("%d%d", &m, &n);
+    if((n * n) == m)
+      {
       printf ("%d*%d=%d", n, n, m);
-    }
-  else if((m * m) == n)
-  {
+      }
+      else if((m * m) == n)
+      {
       printf ("%d*%d=%d", m, m, n);
-  }
-  else
-  {
+      }
+      else
+      {
       printf("none");
-  }
+      }
   return 0;
 }
 
